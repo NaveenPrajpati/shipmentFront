@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap');
+
+.searchShadow{
+    box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01), 167px 302px 207px rgba(21, 31, 72, 0.05), 74px 134px 153px rgba(21, 31, 72, 0.09), 19px 34px 84px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+}
+.serviceShadow{
+    box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.summeryShadow{
+    box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+}
+.bookingShadow{
+    box-shadow: 14px 216px 86px rgba(21, 31, 72, 0.01), 8px 121px 73px rgba(21, 31, 72, 0.05), 3px 54px 54px rgba(21, 31, 72, 0.09), 1px 13px 30px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+}
+.bookinShadow1{
+    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.bookingShadow2{
+    box-shadow: 39px 216px 88px rgba(0, 0, 0, 0.01), 22px 122px 74px rgba(0, 0, 0, 0.05), 10px 54px 55px rgba(0, 0, 0, 0.09), 2px 14px 30px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bgpurple{
+    color:#6F57E9 ;
 }
